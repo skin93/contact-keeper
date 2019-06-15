@@ -1,3 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://skin:Maioritatis93@@contactkeeper-ufyht.mongodb.net/test?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://skin:Maioritatis93@@contactkeeper-ufyht.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "secret"
 }

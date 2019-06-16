@@ -1,6 +1,6 @@
 import React, { useReducer } from 'react';
-import AuthContext from '../auth/authContext';
-import authReducer from '../auth/authReducer';
+import AuthContext from './authContext';
+import authReducer from './authReducer';
 import {
   REGISTER_FAIL,
   USER_LOADED,
@@ -20,7 +20,7 @@ const AuthState = props => {
     error: null
   };
 
-  const [state, dispatch] = authReducer(authReducer, initialState);
+  const [state, dispatch] = useReducer(authReducer, initialState);
 
   // load user
 

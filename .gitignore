@@ -8,7 +8,7 @@ node_modules/
 /client.env.test.local
 /client/.env.production.local
 
-/config/default.json
+/config
 
 npm-debug.logo*
 yarn-debug.log*

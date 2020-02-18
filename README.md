@@ -1,6 +1,6 @@
 # Contact Keeper
 
-Simple MERN stack application for creating accounts and keeping contacts. App deployed on Heroku.
+Simple MERN stack application for creating accounts and keeping contacts. App deployed to Heroku.
 
 ## Built with
 ```
